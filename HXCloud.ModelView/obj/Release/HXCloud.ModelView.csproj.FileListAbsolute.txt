@@ -1,0 +1,5 @@
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.ModelView\bin\Release\HXCloud.ModelView.dll
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.ModelView\bin\Release\HXCloud.ModelView.pdb
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.ModelView\obj\Release\HXCloud.ModelView.csprojResolveAssemblyReference.cache
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.ModelView\obj\Release\HXCloud.ModelView.dll
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.ModelView\obj\Release\HXCloud.ModelView.pdb

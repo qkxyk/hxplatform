@@ -1,0 +1,5 @@
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.UnitOfWork.Infrastructure\bin\Release\HXCloud.UnitOfWork.Infrastructure.dll
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.UnitOfWork.Infrastructure\bin\Release\HXCloud.UnitOfWork.Infrastructure.pdb
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.UnitOfWork.Infrastructure\obj\Release\HXCloud.UnitOfWork.Infrastructure.csprojResolveAssemblyReference.cache
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.UnitOfWork.Infrastructure\obj\Release\HXCloud.UnitOfWork.Infrastructure.dll
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.UnitOfWork.Infrastructure\obj\Release\HXCloud.UnitOfWork.Infrastructure.pdb

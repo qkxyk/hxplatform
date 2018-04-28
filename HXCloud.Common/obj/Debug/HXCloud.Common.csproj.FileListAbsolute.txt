@@ -1,0 +1,7 @@
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.Common\bin\Debug\HXCloud.Common.dll
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.Common\bin\Debug\HXCloud.Common.pdb
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.Common\bin\Debug\log4net.dll
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.Common\bin\Debug\log4net.xml
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.Common\obj\Debug\HXCloud.Common.dll
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.Common\obj\Debug\HXCloud.Common.pdb
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.Common\obj\Debug\HXCloud.Common.csprojResolveAssemblyReference.cache

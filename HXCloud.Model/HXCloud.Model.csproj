@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{668E6785-6B36-4504-9B4C-91EF4214DCE0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HXCloud.Model</RootNamespace>
+    <AssemblyName>HXCloud.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interface\IBase.cs" />
+    <Compile Include="Interface\IClient.cs" />
+    <Compile Include="Interface\IGroup.cs" />
+    <Compile Include="Interface\IProject.cs" />
+    <Compile Include="Interface\IProjectAffiliate.cs" />
+    <Compile Include="Interface\IOperate.cs" />
+    <Compile Include="Interface\IRepository.cs" />
+    <Compile Include="Interface\IRepositoryBak.cs" />
+    <Compile Include="Interface\IRole.cs" />
+    <Compile Include="Interface\IRoleProject.cs" />
+    <Compile Include="Interface\IUser.cs" />
+    <Compile Include="Interface\IUserRole.cs" />
+    <Compile Include="ModelData\ClientModel.cs" />
+    <Compile Include="ModelData\DeviceAlarmModel.cs" />
+    <Compile Include="ModelData\DeviceBaseDataModel.cs" />
+    <Compile Include="ModelData\DeviceControlDataModel.cs" />
+    <Compile Include="ModelData\DeviceDataDefineModel.cs" />
+    <Compile Include="ModelData\DeviceHisDataModel.cs" />
+    <Compile Include="ModelData\DeviceImageModel.cs" />
+    <Compile Include="ModelData\DeviceMapModel.cs" />
+    <Compile Include="ModelData\DeviceModel.cs" />
+    <Compile Include="ModelData\DeviceOnlineModel.cs" />
+    <Compile Include="ModelData\DevicePanelModel.cs" />
+    <Compile Include="ModelData\DevicePanelTypeModel.cs" />
+    <Compile Include="ModelData\DeviceRealDataModel.cs" />
+    <Compile Include="ModelData\DeviceVideoModel.cs" />
+    <Compile Include="ModelData\GroupModel.cs" />
+    <Compile Include="ModelData\DeviceTypeModel.cs" />
+    <Compile Include="ModelData\ProjectAffiliateModel.cs" />
+    <Compile Include="ModelData\ProjectModel.cs" />
+    <Compile Include="ModelData\OperateModel.cs" />
+    <Compile Include="ModelData\RoleProjectModel.cs" />
+    <Compile Include="ModelData\RoleSysMenuModel.cs" />
+    <Compile Include="ModelData\SysMenuModel.cs" />
+    <Compile Include="ModelData\UserModel.cs" />
+    <Compile Include="ModelData\RoleModel.cs" />
+    <Compile Include="ModelData\UserRoleModel.cs" />
+    <Compile Include="ModelMaps\ClientModelMap.cs" />
+    <Compile Include="ModelMaps\DeviceAlarmModelMap.cs" />
+    <Compile Include="ModelMaps\DeviceBaseDataModelMap.cs" />
+    <Compile Include="ModelMaps\DeviceControlDataModelMap.cs" />
+    <Compile Include="ModelMaps\DeviceDataDefineModelMap.cs" />
+    <Compile Include="ModelMaps\DeviceHisDataModelMap.cs" />
+    <Compile Include="ModelMaps\DeviceImageModelMap.cs" />
+    <Compile Include="ModelMaps\DeviceMapModelMap.cs" />
+    <Compile Include="ModelMaps\DeviceModelMap.cs" />
+    <Compile Include="ModelMaps\DeviceOnlineModelMap.cs" />
+    <Compile Include="ModelMaps\DevicePanelModelMap.cs" />
+    <Compile Include="ModelMaps\DevicePanelTypeModelMap.cs" />
+    <Compile Include="ModelMaps\DeviceTypeModelMap.cs" />
+    <Compile Include="ModelMaps\DeviceVideoModelMap.cs" />
+    <Compile Include="ModelMaps\GroupModelMap.cs" />
+    <Compile Include="ModelMaps\ProjectAffiliateModelMap.cs" />
+    <Compile Include="ModelMaps\ProjectModelMap.cs" />
+    <Compile Include="ModelMaps\OperateModelMap.cs" />
+    <Compile Include="ModelMaps\RoleProjectModelMap.cs" />
+    <Compile Include="ModelMaps\RoleModelMap.cs" />
+    <Compile Include="ModelMaps\RoleSysMenuModelMap.cs" />
+    <Compile Include="ModelMaps\SysMenuModelMap.cs" />
+    <Compile Include="ModelMaps\UserModelMap.cs" />
+    <Compile Include="ModelMaps\UserRoleModelMap.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HXCloud.UnitOfWork.Infrastructure\HXCloud.UnitOfWork.Infrastructure.csproj">
+      <Project>{1a70de82-030f-42b7-bd92-21ede634c2e3}</Project>
+      <Name>HXCloud.UnitOfWork.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

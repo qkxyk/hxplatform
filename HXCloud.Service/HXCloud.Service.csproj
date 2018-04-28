@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F56C4534-B460-469C-8F2B-EEE0C69BAE36}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HXCloud.Service</RootNamespace>
+    <AssemblyName>HXCloud.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientService.cs" />
+    <Compile Include="DeviceAlarmService.cs" />
+    <Compile Include="DeviceBaseDataService.cs" />
+    <Compile Include="DeviceControlDataService.cs" />
+    <Compile Include="DeviceDataDefineService.cs" />
+    <Compile Include="DeviceHisService.cs" />
+    <Compile Include="DeviceImageService.cs" />
+    <Compile Include="DeviceMapService.cs" />
+    <Compile Include="DeviceOnlineService.cs" />
+    <Compile Include="DevicePanelService.cs" />
+    <Compile Include="DevicePanelTypeService.cs" />
+    <Compile Include="DeviceService.cs" />
+    <Compile Include="DeviceTypeService.cs" />
+    <Compile Include="DeviceVideoService.cs" />
+    <Compile Include="GroupService.cs" />
+    <Compile Include="ProjectAffiliateService.cs" />
+    <Compile Include="ProjectService.cs" />
+    <Compile Include="OperateService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleProjectService.cs" />
+    <Compile Include="RoleService.cs" />
+    <Compile Include="RoleSysMenuService.cs" />
+    <Compile Include="SysMenuService.cs" />
+    <Compile Include="UserRoleService.cs" />
+    <Compile Include="UserService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HXCloud.Common\HXCloud.Common.csproj">
+      <Project>{dd35a010-dd25-4e89-957d-342406b72806}</Project>
+      <Name>HXCloud.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HXCloud.ModelView\HXCloud.ModelView.csproj">
+      <Project>{cc80fdaf-a1f8-46e6-99b7-8284ac9a5a71}</Project>
+      <Name>HXCloud.ModelView</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HXCloud.Model\HXCloud.Model.csproj">
+      <Project>{668e6785-6b36-4504-9b4c-91ef4214dce0}</Project>
+      <Name>HXCloud.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HXCloud.Repository.EF\HXCloud.Repository.EF.csproj">
+      <Project>{8db6065a-b2d6-4868-b675-0c01628c854c}</Project>
+      <Name>HXCloud.Repository.EF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HXCloud.UnitOfWork.Infrastructure\HXCloud.UnitOfWork.Infrastructure.csproj">
+      <Project>{1a70de82-030f-42b7-bd92-21ede634c2e3}</Project>
+      <Name>HXCloud.UnitOfWork.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

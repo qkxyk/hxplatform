@@ -1,0 +1,12 @@
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.Model\bin\Debug\HXCloud.Model.dll.config
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.Model\bin\Debug\HXCloud.Model.dll
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.Model\bin\Debug\HXCloud.Model.pdb
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.Model\bin\Debug\EntityFramework.dll
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.Model\bin\Debug\EntityFramework.xml
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.Model\obj\Debug\HXCloud.Model.dll
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.Model\obj\Debug\HXCloud.Model.pdb
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.Model\bin\Debug\HXCloud.UnitOfWork.Infrastructure.dll
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.Model\bin\Debug\HXCloud.UnitOfWork.Infrastructure.pdb
+D:\work\CloudPlatform\HXCloudPlatform\HXCloud.Model\obj\Debug\HXCloud.Model.csprojResolveAssemblyReference.cache

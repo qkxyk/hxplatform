@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HXCloud.Model", "HXCloud.Model\HXCloud.Model.csproj", "{668E6785-6B36-4504-9B4C-91EF4214DCE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HXCloud.ModelView", "HXCloud.ModelView\HXCloud.ModelView.csproj", "{CC80FDAF-A1F8-46E6-99B7-8284AC9A5A71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HXCloud.Service", "HXCloud.Service\HXCloud.Service.csproj", "{F56C4534-B460-469C-8F2B-EEE0C69BAE36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HXCloud.API", "HXCloud.API\HXCloud.API.csproj", "{A861E36F-820A-44AA-9703-CF003E2EBE38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HXCloud.UnitOfWork", "HXCloud.UnitOfWork", "{7CA25FE4-5C2C-4D97-8CA1-4B18F2237062}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HXCloud.UnitOfWork.Infrastructure", "HXCloud.UnitOfWork.Infrastructure\HXCloud.UnitOfWork.Infrastructure.csproj", "{1A70DE82-030F-42B7-BD92-21EDE634C2E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HXCloud.Repository.EF", "HXCloud.Repository.EF\HXCloud.Repository.EF.csproj", "{8DB6065A-B2D6-4868-B675-0C01628C854C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HXCloud.Common", "HXCloud.Common\HXCloud.Common.csproj", "{DD35A010-DD25-4E89-957D-342406B72806}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{668E6785-6B36-4504-9B4C-91EF4214DCE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{668E6785-6B36-4504-9B4C-91EF4214DCE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{668E6785-6B36-4504-9B4C-91EF4214DCE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{668E6785-6B36-4504-9B4C-91EF4214DCE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC80FDAF-A1F8-46E6-99B7-8284AC9A5A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC80FDAF-A1F8-46E6-99B7-8284AC9A5A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC80FDAF-A1F8-46E6-99B7-8284AC9A5A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC80FDAF-A1F8-46E6-99B7-8284AC9A5A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F56C4534-B460-469C-8F2B-EEE0C69BAE36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56C4534-B460-469C-8F2B-EEE0C69BAE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56C4534-B460-469C-8F2B-EEE0C69BAE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56C4534-B460-469C-8F2B-EEE0C69BAE36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A861E36F-820A-44AA-9703-CF003E2EBE38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A861E36F-820A-44AA-9703-CF003E2EBE38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A861E36F-820A-44AA-9703-CF003E2EBE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A861E36F-820A-44AA-9703-CF003E2EBE38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A70DE82-030F-42B7-BD92-21EDE634C2E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A70DE82-030F-42B7-BD92-21EDE634C2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A70DE82-030F-42B7-BD92-21EDE634C2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A70DE82-030F-42B7-BD92-21EDE634C2E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB6065A-B2D6-4868-B675-0C01628C854C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB6065A-B2D6-4868-B675-0C01628C854C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB6065A-B2D6-4868-B675-0C01628C854C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB6065A-B2D6-4868-B675-0C01628C854C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD35A010-DD25-4E89-957D-342406B72806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD35A010-DD25-4E89-957D-342406B72806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD35A010-DD25-4E89-957D-342406B72806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD35A010-DD25-4E89-957D-342406B72806}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A70DE82-030F-42B7-BD92-21EDE634C2E3} = {7CA25FE4-5C2C-4D97-8CA1-4B18F2237062}
+	EndGlobalSection
+EndGlobal
